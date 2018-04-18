@@ -11,7 +11,7 @@
     <dubbo:application name="my_provider" />  
   
     <!-- 使用multicast广播注册中心接收服务地址 -->  
-    <dubbo:registry address="zookeeper://192.168.199.233:2181" />  
+    <dubbo:registry address="zookeeper://localhost:2181" />  
   
     <dubbo:reference id="dubboProviderService" interface="com.forum.service.DubboProviderService"/>
     
