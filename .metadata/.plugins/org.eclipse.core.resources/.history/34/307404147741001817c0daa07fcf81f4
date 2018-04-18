@@ -1,0 +1,10 @@
+package main.dao;
+
+import org.apache.ibatis.annotations.Mapper;
+
+import main.model.Blea;
+
+@Mapper
+public interface BleaDao {
+	public Blea findById();
+}

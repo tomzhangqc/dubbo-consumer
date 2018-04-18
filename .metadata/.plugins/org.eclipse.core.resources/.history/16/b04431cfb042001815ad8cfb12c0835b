@@ -1,0 +1,17 @@
+package com.backstage.service.impl;
+
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.stereotype.Service;
+
+import com.backstage.service.RabbitMQReceiverService;
+@Service
+@RabbitListener(queues = "rabbit")
+public class RabbitMQReceiverServiceImpl implements RabbitMQReceiverService{
+	
+	@Override
+	public void receive() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

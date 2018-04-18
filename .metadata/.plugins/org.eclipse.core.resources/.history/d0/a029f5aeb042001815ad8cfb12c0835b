@@ -1,0 +1,13 @@
+package com.backstage.service.impl;
+
+import com.backstage.service.RabbitMQReceiverService;
+
+public class RabbitMQReceiverServiceImpl implements RabbitMQReceiverService{
+
+	@Override
+	public void receive() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

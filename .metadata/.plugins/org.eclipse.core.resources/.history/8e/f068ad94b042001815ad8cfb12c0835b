@@ -1,0 +1,5 @@
+package com.backstage.service;
+
+public class RabbitMQReceiverService {
+
+}

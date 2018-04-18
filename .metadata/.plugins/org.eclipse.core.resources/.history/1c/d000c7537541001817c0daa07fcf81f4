@@ -1,0 +1,5 @@
+package main.dubbo.consumer.service;
+
+public interface DubboConsumerService {
+	public void consumer() ;
+}
