@@ -61,7 +61,7 @@
 		<!-- 模块依赖结束 -->
   </dependencies>
   <build>
-  	<finalName>consumer-provider</finalName>
+  	<finalName>forum-consumer</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
