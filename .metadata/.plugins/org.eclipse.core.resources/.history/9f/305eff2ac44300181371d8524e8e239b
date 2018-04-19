@@ -1,0 +1,5 @@
+package com.backstage.service;
+
+public interface TopicRabbitMQReceiverService2 {
+	public void receive(String message);
+}

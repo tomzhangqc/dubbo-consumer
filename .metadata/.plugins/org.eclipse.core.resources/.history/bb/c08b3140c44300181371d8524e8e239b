@@ -1,0 +1,11 @@
+package com.backstage.service.impl;
+
+import com.backstage.service.TopicRabbitMQReceiverService;
+
+public class TopicRabbitMQReceiverServiceImpl implements TopicRabbitMQReceiverService{
+
+	@Override
+	public void receive(String message) {
+		
+	}
+}

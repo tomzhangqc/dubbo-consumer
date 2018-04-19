@@ -1,0 +1,5 @@
+package com.backstage.configuration;
+
+public class FanoutRabbitConfig {
+
+}
